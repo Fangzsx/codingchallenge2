@@ -23,3 +23,11 @@ const totals = [
     getBillPlusTip(bills[2], tips[2])];
 
 console.log(totals);
+
+
+const person = {
+    firstName : 'Jonas',
+    friends : ['Michael', 'Steven', 'Jonas'],
+}
+
+console.log(`${person.firstName} has ${person.friends.length} friends, and his best friend is called ${person.friends[0]}`);
